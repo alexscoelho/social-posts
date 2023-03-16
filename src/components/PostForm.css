@@ -1,0 +1,42 @@
+.PostForm {
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.PostForm span {
+    cursor: pointer;
+    float: right;
+}
+
+.PostForm label {
+    display: block;
+    width: 100%;
+}
+
+.PostForm button {
+    padding: 10px;
+    background-color: #f3f1f7;
+    border: none;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
+    width: 100%;
+}
+
+.PostForm input {
+    padding: 10px;
+
+}
+
+.PostForm input, textarea, button,label {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+
+
+

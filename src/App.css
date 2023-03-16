@@ -1,38 +1,36 @@
-.App {
-  text-align: center;
+.App header {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: #03a9f4;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App main {
+    display: flex;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App .new-post-button {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App .new-post-button button {
+    width: 100%;
+    padding: 10px;
+    background-color: #03a9f4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
